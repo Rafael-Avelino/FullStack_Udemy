@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de contato</title>
+</head>
+<body>
+    <h1>Entre em contato comigo!</h1>
+
+    <form action="mailto:rafael.avel.eco@gmail.com" method="post" enctype="text/plain"> 
+    <!-- Div semântica para o formulário 
+    action = o que vai acontecer quando clicar em submit 
+    mathod = como o formulário vai ser submetido 
+    enctype = especificando como o dado vai ser codificado-->
+
+        <label for="">Nome:</label> <!-- Rótulo -->
+        <input type="text" name="Nome" id=""> <br> <!--  Caixa para colocar texto -->
+
+        <label for="">E-mail:</label>
+        <input type="email" name="Email" id=""><br>
+
+        <label for="">Sua mensagem:</label> <br>
+        <textarea name="Mensagem" id="" cols="30" rows="10"></textarea><br>
+
+        <input type="submit" name="" id=""> <!--  Botão de submit -->
+    </form>
+</body>
+</html>
